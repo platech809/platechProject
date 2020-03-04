@@ -47,12 +47,11 @@ public class Main{
         }
         avg_wt=(float)total/n;      
         total=0;
-        System.out.println("Process \tBurstTime \t WaitingTime");
+        System.out.println("Process \tBurstTime ");
         for(i=0;i<n;i++)
         {
             System.out.print("\n"+pid[i]);;
             System.out.print("\t\t"+bt[i]);
-            System.out.print("\t\t\t"+waitingTime[i]);
             System.out.print("\n");
         }
         System.out.print("Average Waiting Time= "+avg_wt);
